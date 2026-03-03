@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+h1 {
+  text-align: center;
+  color: #1db954;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  color: #1db954;
+  border-bottom: 2px solid #1db954;
+  padding-bottom: 8px;
+  margin-top: 30px;
+}
+
+h3 {
+  color: #1ed760;
+  margin-top: 20px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.download-section {
+  background: linear-gradient(135deg, #1db954, #1ed760);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  background: white;
+  color: #1db954;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 10px;
+  transition: transform 0.2s;
+}
+
+.download-btn:hover {
+  transform: scale(1.05);
+  background: #f0f0f0;
+}
+
+.step {
+  background: #252525;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 4px solid #1db954;
+}
+
+.step-number {
+  display: inline-block;
+  background: #1db954;
+  color: white;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.warning {
+  background: #ff9800;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+  font-weight: bold;
+}
+
+.note {
+  background: #2196f3;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin: 15px 0;
+}
+
+.game-modes {
+  display: grid;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.game-card {
+  background: #252525;
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #1db954;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin: 8px 0;
+}
+
+.emoji {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+a {
+  color: #1db954;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.back-btn {
+  display: inline-block;
+  background: #9c27b0;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: transform 0.2s;
+}
+
+.back-btn:hover {
+  transform: scale(1.05);
+  background: #7b1fa2;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>🎵 Welcome to My Music Quiz Game!</h1>
+  <p class="welcome">Get ready for an epic music guessing experience with your friends!</p>
+
+  <!-- Download Section -->
+  <h2>📱 Step 1: Download the Android App</h2>
+  <div class="download-section">
+    <p style="color: black; font-weight: bold; margin: 0;">Download the Music Quiz App for Android</p>
+    <a href="https://drive.google.com/file/d/1YwtU-YBl9iMzH01yc2CCnJl7zmFnCp9V/view?usp=sharing" class="download-btn" target="_blank">
+      ⬇️ Download APK
+    </a>
+  </div>
+
+  <!-- Installation Instructions -->
+  <h2>🔧 Step 2: Install the App on Your Android Phone</h2>
+  
+  <div class="step">
+    <span class="step-number">1</span>
+    <strong>Download the APK file</strong> from the link above to your Android phone.
+  </div>
+
+  <div class="step">
+    <span class="step-number">2</span>
+    <strong>Open your phone's Settings</strong> → Go to <strong>Security</strong> or <strong>Privacy</strong>.
+  </div>
+
+  <div class="step">
+    <span class="step-number">3</span>
+    <strong>Enable "Install Unknown Apps"</strong> or <strong>"Unknown Sources"</strong> for your browser/file manager.
+    <br><small style="color: #aaa;">(This allows you to install apps outside of Google Play Store)</small>
+  </div>
+
+  <div class="step">
+    <span class="step-number">4</span>
+    <strong>Tap the downloaded APK file</strong> to start installation.
+  </div>
+
+  <div class="step">
+    <span class="step-number">5</span>
+    <strong>Follow the on-screen prompts</strong> and tap <strong>Install</strong>.
+  </div>
+
+  <div class="step">
+    <span class="step-number">6</span>
+    <strong>Open the app</strong> once installation is complete!
+  </div>
+
+  <div class="warning">
+    ⚠️ <strong>Important:</strong> This app is safe and created for personal use. Your phone may warn you about installing from unknown sources - this is normal for apps not from the Play Store.
+  </div>
+
+  <!-- App Setup -->
+  <h2>🎧 Step 3: Set Up Spotify Connection</h2>
+
+  <div class="step">
+    <span class="step-number">1</span>
+    <strong>Open Spotify</strong> on your phone and <strong>sign in to your account</strong>.
+    <br><small style="color: #aaa;">(Free or Premium account works)</small>
+  </div>
+
+  <div class="step">
+    <span class="step-number">2</span>
+    <strong>Start playing any song</strong> on Spotify (just to activate your account).
+  </div>
+
+  <div class="step">
+    <span class="step-number">3</span>
+    <strong>Open the Music Quiz App</strong> you just installed.
+  </div>
+
+  <div class="step">
+    <span class="step-number">4</span>
+    <strong>Log in to Spotify</strong> when the app prompts you (first time only).
+  </div>
+
+  <div class="note">
+    💡 <strong>Tip:</strong> Once set up, the app will control Spotify in the background - you can keep the quiz page visible while music plays!
+  </div>
+
+  <!-- How to Use App -->
+  <h2>📲 Step 4: Using the Quiz App</h2>
+
+  <div class="step">
+    <span class="emoji">📷</span>
+    <strong>Scan QR Codes:</strong> Point your phone camera at the QR code on the quiz webpage to load a song.
+  </div>
+
+  <div class="step">
+    <span class="emoji">⏸️</span>
+    <strong>Pause/Resume:</strong> Use the pause button in the app to control playback.
+  </div>
+
+  <div class="step">
+    <span class="emoji">⏭️</span>
+    <strong>Next Song:</strong> Click the "Next" button to open the scanner for the next QR code.
+  </div>
+
+  <!-- Game Modes -->
+  <h2>🎮 How to Play the Games</h2>
+
+  <div class="game-modes">
+    
+    <!-- Standard Quiz Mode -->
+    <div class="game-card">
+      <h3>🎯 Standard Quiz Mode</h3>
+      <p><strong>Perfect for:</strong> Testing your music knowledge with friends!</p>
+      
+      <div class="note">
+        💡 <strong>Recommended:</strong> Use the <strong>General Music Quiz</strong> for this mode! The decade-specific quizzes (50s, 60s, 70s, etc.) have all songs within a 10-year span, making the year-guessing extremely difficult unless you really want to test your expert music knowledge!
+      </div>
+      
+      <ol>
+        <li>Open one of the quiz game web pages (links below)</li>
+        <li>Enter player names (up to 6 players)</li>
+        <li>Click <strong>"Start Game"</strong></li>
+        <li>Use the app to <strong>scan the QR code</strong></li>
+        <li>Listen to the song and guess:
+          <ul>
+            <li>🎵 Song Name</li>
+            <li>🎤 Artist/Band</li>
+            <li>📅 Release Year</li>
+          </ul>
+        </li>
+        <li>For each correct guess, click the corresponding button to award a point</li>
+        <li>Click <strong>"Next Player"</strong> to continue</li>
+        <li>Player with the most points wins!</li>
+      </ol>
+    </div>
+
+    <!-- Hitster Mode -->
+    <div class="game-card">
+      <h3>🎲 Alternate Mode (Hitster-Style Timeline Game)</h3>
+      <p><strong>Perfect for:</strong> A fun timeline challenge!</p>
+      
+      <div class="note">
+        💡 <strong>Works with all games!</strong> The decade-specific quizzes are great for Hitster mode - they make it more challenging since you need to guess the exact year within a narrow range!
+      </div>
+      
+      <p><strong>What you need:</strong> 10 small pieces of paper per player</p>
+      
+      <ol>
+        <li>Each player writes a random year between <strong>1920-2025</strong> on a piece of paper</li>
+	<li>If are playing a specific decade <strong>start with the middle year</strong> to make it easier</li>
+        <li>Place the paper in front of you</li>
+        <li>Use the app to scan a song</li>
+        <li>Guess if the song was released <strong>BEFORE</strong> or <strong>AFTER</strong> your written year</li>
+        <li><strong>If correct:</strong> Write the actual song year (shown on quiz page) on a new piece of paper and place it in the correct chronological position in your timeline</li>
+        <li><strong>If incorrect:</strong> Don't write anything - next player's turn</li>
+        <li><strong>Goal:</strong> First player to create a timeline of 10 correctly ordered cards wins!</li>
+      </ol>
+      
+      <div class="note">
+        💡 <strong>Strategy Tip:</strong> Start with a year like 1975 to give yourself flexibility for both earlier and later songs!
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Game Links -->
+  <h2>🌐 Available Quiz Games</h2>
+  <p>Click on any link below to start playing:</p>
+  
+  <div style="background: #252525; padding: 20px; border-radius: 8px; margin: 15px 0;">
+    <p><a href="https://jarodtim.github.io/General-Music-Quiz/" target="_blank"><strong>🎵 General Music Quiz</strong></a> - All genres and decades (Best for Standard Quiz Mode!)</p>
+    <p><a href="https://jarodtim.github.io/50s-Music-Quiz/" target="_blank"><strong>🎶 50s Music Quiz</strong></a> - Classic hits from the 1950s</p>
+    <p><a href="https://jarodtim.github.io/60s-music-quiz/" target="_blank"><strong>🎸 60s Music Quiz</strong></a> - The swinging sixties</p>
+    <p><a href="https://jarodtim.github.io/70s-Music-Quiz/" target="_blank"><strong>🕺 70s Music Quiz</strong></a> - Disco, funk, and rock</p>
+    <p><a href="https://jarodtim.github.io/80s-music-trivia/" target="_blank"><strong>📻 80s Music Quiz</strong></a> - The decade of synth and pop</p>
+    <p><a href="https://jarodtim.github.io/90s-quiz/" target="_blank"><strong>💿 90s Music Quiz</strong></a> - Grunge, hip-hop, and boy bands</p>
+    <p><a href="https://jarodtim.github.io/2000-s-Music-Quiz/" target="_blank"><strong>📱 2000s Music Quiz</strong></a> - Y2K hits and classics</p>
+    <p style="margin: 0;"><a href="https://jarodtim.github.io/2010_Music_Quiz/" target="_blank"><strong>🎧 2010s Music Quiz</strong></a> - Modern hits and streaming era</p>
+  </div>
+
+  <!-- Tips Section -->
+  <h2>💡 Pro Tips</h2>
+  <ul>
+    <li>Make sure your phone has a stable internet connection for Spotify streaming</li>
+    <li>Keep the quiz webpage open on a tablet or laptop for best viewing</li>
+    <li>Adjust the volume on your phone before starting</li>
+    <li>For Hitster mode, use sticky notes for easier rearranging</li>
+    <li>Mix up the difficulty by including songs from different eras</li>
+  </ul>
+
+  <!-- Troubleshooting -->
+  <h2>❓ Troubleshooting</h2>
+  
+  <div class="step">
+    <strong>App won't install:</strong> Make sure "Install Unknown Apps" is enabled in Settings
+  </div>
+  
+  <div class="step">
+    <strong>QR code won't scan:</strong> Ensure good lighting and hold phone steady
+  </div>
+  
+  <div class="step">
+    <strong>Song won't play:</strong> Check that you're logged into Spotify and have an active internet connection
+  </div>
+  
+  <div class="step">
+    <strong>App crashes:</strong> Close and reopen both Spotify and the quiz app
+  </div>
+
+<!-- Footer -->
+<div class="back-link">
+  <a href="#" class="back-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+    ⬆️ Back to Top
+  </a>
+</div>
+
+</body>
+</html>
